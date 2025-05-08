@@ -1,4 +1,4 @@
-def is_palyndrome(text):
+def is_palindrome(text):
     reverse_order = ""
     for letter in text:
         reverse_order += letter
@@ -7,4 +7,4 @@ def is_palyndrome(text):
     else: 
         return False
 
-print(is_palyndrome("But"))
+print(is_palindrome("But"))
