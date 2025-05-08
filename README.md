@@ -1,1 +1,1 @@
-#My Palyndrome Project
+#My Palindrome Project
