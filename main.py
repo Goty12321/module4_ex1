@@ -5,6 +5,6 @@ def is_palindrome(text):
     variable called 'reverse_order' by iterating the whole string backwards
     and checking if value is same as the original string!"""
     reverse_order = text[::-1]
-    return bool(reverse_order == text)
+    return reverse_order == text
 
 print(is_palindrome("kajak"))
